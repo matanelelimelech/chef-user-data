@@ -10,3 +10,11 @@ clone your git repository (that has all needed cookbooks & configurations)
 execute chef-solo
 Additionally - come with a final idea for your project.
 See you next week :cloudschool:
+
+
+git init
+git add <chef>. 
+git commit -m "commit1"
+git remote add origin https://github.com/yourUsername/yourRepository.git
+git push -u origin master
+git push origin master
