@@ -354,16 +354,16 @@
           "lo": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "21866",
-              "packets": "250",
+              "bytes": "32334",
+              "packets": "366",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "21866",
-              "packets": "250",
+              "bytes": "32334",
+              "packets": "366",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -372,16 +372,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "1803675",
-              "packets": "14291",
+              "bytes": "2648451",
+              "packets": "20133",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "95886146",
-              "packets": "79233",
+              "bytes": "100090734",
+              "packets": "88475",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -422,26 +422,26 @@
         "2M": "946176kB"
       },
       "total": "1002056kB",
-      "free": "117716kB",
-      "available": "561216kB",
-      "buffers": "52044kB",
-      "cached": "499312kB",
-      "active": "524724kB",
-      "inactive": "199436kB",
-      "dirty": "324kB",
+      "free": "62568kB",
+      "available": "565276kB",
+      "buffers": "52360kB",
+      "cached": "560784kB",
+      "active": "531156kB",
+      "inactive": "247180kB",
+      "dirty": "340kB",
       "writeback": "0kB",
-      "anon_pages": "194732kB",
-      "mapped": "93188kB",
-      "slab": "110100kB",
-      "slab_reclaimable": "57640kB",
-      "slab_unreclaim": "52460kB",
-      "page_tables": "3556kB",
+      "anon_pages": "187140kB",
+      "mapped": "83004kB",
+      "slab": "110792kB",
+      "slab_reclaimable": "59624kB",
+      "slab_unreclaim": "51168kB",
+      "page_tables": "3420kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "501028kB",
-      "committed_as": "1256408kB",
+      "committed_as": "1250324kB",
       "vmalloc_total": "34359738367kB",
-      "vmalloc_used": "8204kB",
+      "vmalloc_used": "8116kB",
       "vmalloc_chunk": "0kB",
       "hugepage_size": "2048kB",
       "hugetlb": "0kB"
@@ -756,10 +756,10 @@
       "public_ipv4": "54.160.65.96",
       "local_ipv4": "172.31.52.212"
     },
-    "uptime_seconds": 9936,
-    "uptime": "2 hours 45 minutes 36 seconds",
-    "idletime_seconds": 9847,
-    "idletime": "2 hours 44 minutes 07 seconds",
+    "uptime_seconds": 27683,
+    "uptime": "7 hours 41 minutes 23 seconds",
+    "idletime_seconds": 27567,
+    "idletime": "7 hours 39 minutes 27 seconds",
     "init_package": "systemd",
     "hostname": "ip-172-31-52-212",
     "machinename": "ip-172-31-52-212",
@@ -3128,17 +3128,17 @@
     "time": {
       "timezone": "UTC"
     },
-    "ohai_time": 1617817534.6819785,
+    "ohai_time": 1617835281.8333848,
     "filesystem": {
       "by_device": {
         "/dev/root": {
           "kb_size": "8065444",
-          "kb_used": "3055040",
-          "kb_available": "4994020",
+          "kb_used": "3056032",
+          "kb_available": "4993028",
           "percent_used": "38%",
           "total_inodes": "1024000",
-          "inodes_used": "139104",
-          "inodes_available": "884896",
+          "inodes_used": "139296",
+          "inodes_available": "884704",
           "inodes_percent_used": "14%",
           "mounts": [
             "/"
@@ -3695,12 +3695,12 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "8065444",
-          "kb_used": "3055040",
-          "kb_available": "4994020",
+          "kb_used": "3056032",
+          "kb_available": "4993028",
           "percent_used": "38%",
           "total_inodes": "1024000",
-          "inodes_used": "139104",
-          "inodes_available": "884896",
+          "inodes_used": "139296",
+          "inodes_available": "884704",
           "inodes_percent_used": "14%",
           "devices": [
             "/dev/root",
@@ -3757,12 +3757,12 @@
         },
         "/run": {
           "kb_size": "100208",
-          "kb_used": "820",
-          "kb_available": "99388",
+          "kb_used": "812",
+          "kb_available": "99396",
           "percent_used": "1%",
           "total_inodes": "125257",
-          "inodes_used": "513",
-          "inodes_available": "124744",
+          "inodes_used": "509",
+          "inodes_available": "124748",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -4439,13 +4439,13 @@
         "/dev/root,/": {
           "device": "/dev/root",
           "kb_size": "8065444",
-          "kb_used": "3055040",
-          "kb_available": "4994020",
+          "kb_used": "3056032",
+          "kb_available": "4993028",
           "percent_used": "38%",
           "mount": "/",
           "total_inodes": "1024000",
-          "inodes_used": "139104",
-          "inodes_available": "884896",
+          "inodes_used": "139296",
+          "inodes_available": "884704",
           "inodes_percent_used": "14%"
         },
         "devtmpfs,/dev": {
@@ -4489,13 +4489,13 @@
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "100208",
-          "kb_used": "820",
-          "kb_available": "99388",
+          "kb_used": "812",
+          "kb_available": "99396",
           "percent_used": "1%",
           "mount": "/run",
           "total_inodes": "125257",
-          "inodes_used": "513",
-          "inodes_available": "124744",
+          "inodes_used": "509",
+          "inodes_available": "124748",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -5244,7 +5244,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 28204,
+      "_AVPHYS_PAGES": 19026,
       "_NPROCESSORS_CONF": 1,
       "_NPROCESSORS_ONLN": 1,
       "_PHYS_PAGES": 250514,
